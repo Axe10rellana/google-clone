@@ -1,0 +1,136 @@
+.searchPage {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchPage__header {
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 20px;
+}
+
+.searchPage__headerRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchPage__menu {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+
+.searchPage__options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.searchPage__optionsLeft,
+.searchPage__optionsRight {
+  display: flex;
+  align-items: center;
+}
+
+.searchPage__option {
+  display: flex;
+  align-items: center;
+  color: gray;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.searchPage__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchPage__body > a > .searchPage__logo {
+  display: block;
+  height: 150px;
+  margin: auto;
+  object-fit: contain;
+  object-position: center bottom;
+  width: auto;
+}
+
+.searchPage__results {
+  margin-top: 20px;
+  margin-bottom: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+}
+
+.searchPage__resultsCount {
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.searchPage__footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  color: #636e72;
+  padding: 20px 0;
+  font-size: 13px;
+}
+
+.searchPage__footer > hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.searchPage__footer > p {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.searchPage__footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 10px;
+}
+
+.searchPage__footerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.searchPage__footerLeft p {
+  margin-right: 20px;
+}
+
+/*-------------Mediaquerys----------------*/
+
+@media only screen and (max-width: 768px) {
+  .searchPage__menu {
+    font-size: 14px;
+  }
+  .searchPage__options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .searchPage__footer {
+    font-size: 14px;
+  }
+  .searchPage__footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
