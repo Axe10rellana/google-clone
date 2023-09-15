@@ -24,8 +24,19 @@ Código base de la aplicación Google Clone App hecha en React.js y Redux que ut
 
 ## Hecho con
 
-- [React](https://react.dev/) - JS library
-- [Redux](https://redux.js.org/) - For state management
+### JS Library
+- [React](https://react.dev/)
+
+### For routing
+- [React Router Dom](https://reactrouter.com/en/main)
+
+### For state management
+- [React Redux](https://react-redux.js.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+
+### For styles
+- [Material UI](https://mui.com/)
+- [Styled Components](https://styled-components.com/) 
 
 ---
 
@@ -39,8 +50,13 @@ Código base de la aplicación Google Clone App hecha en React.js y Redux que ut
 
 ## Dependencias
 
+- @material-ui/core
+- @material-ui/icons
+- @reduxjs/toolkit
 - React
-- Redux
+- react-redux
+- react-router-dom
+- styled-components
 
 ---
 
